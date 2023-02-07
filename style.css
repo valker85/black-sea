@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1050px;
+    margin: 0 auto;
+}
+header{
+    background: url("images/firstBack.jpg")  no-repeat center top / cover;
+    /* height: 800px; */
+    padding-bottom: 160px;
+    width: 100%;
+}
+.sectionTwo{
+    padding-bottom: 90px;
+}
+.sectionThree{
+    background: #00d089;
+    padding-top: 95px;
+    padding-bottom: 100px;
+}
+.sectionFour{
+    background: url("images/map.jpg") no-repeat center top / cover;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+footer{
+    background: #00d089;
+    padding: 17px 0px 17px 0px;
+}
+/* Меню навигации */
+.hat{
+    background: #4d98a3;
+
+}
+.logo{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    padding: 25px 0px 25px 55px;
+    display: inline-block;
+}
+nav{
+    margin-top: 40px;
+    float: right;
+}
+.menu li{
+    float: left;
+    display: block;
+    /* margin-right: 40px; */
+}
+.menu li a{
+    color: #cee9f8;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.palka{
+    font-size: 18px;
+    color: #cee9f8;
+    margin: 3px 20px 0px 20px;
+}
+/* ============== */
+.OneP_one{
+    text-align: center;
+    color: #e4e4e4;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 130px;
+    display: block;
+}
+.button1{
+    width: 230px;
+    padding: 10px 45px;
+    border-radius: 4px;
+    background: #ffffff17;
+    border: solid 3px #afb1b4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #afb1b4;
+    display: block;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+.secP_one{
+    width: 635px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: #4c505d;
+    margin-top: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.secP_two{
+    width: 850px;
+    text-align: center;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4c505d;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+.icons{ 
+    display: inline-block;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 70px;
+}
+.ico{
+    width: 55px;
+    display: inline-block;
+    margin: 0 auto;
+}
+.icoM{
+    margin-right: 125px;
+}
+.photo{
+    width: 135px;
+    margin-left: 44%;
+
+    display: inline-block;
+}
+.photo img{
+    display: inline-block;
+}
+.nameKavichki{
+    display: inline-block;
+    color: #e4e4e4;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     /* margin-bottom: 50px; */
+    float: right;
+    margin-right: 28%;
+}
+.nameKavichki img{
+    width: 90px;
+    margin-top: 10px;
+    opacity: 50%;
+}
+.thirP_one{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 60px;
+    line-height: 35px;
+}
+.registration{
+    width: 430px;
+    height: 430px;
+    background: #ffffffd9;
+    border-radius: 215px;
+    margin: 0 auto;
+}
+.regName{
+    width: 265px;
+    height: 30px;
+    border: #d8d8d8 solid 1px;
+    margin: 100px 0px 15px 80px;
+}
+.regMail{
+    width: 265px;
+    height: 30px;
+    border: #d8d8d8 solid 1px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+.regMassage{
+    width: 265px;
+    height: 80px;
+    border: #d8d8d8 solid 1px;
+    margin-left: 80px;
+    /* position: absolute; */
+}
+.okButton{
+    margin-left: 180px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.footerTitle{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (min-width: 900px) and (max-width: 1064px){
+    .container{
+        width: 100%;
+        /* margin-right: 200px; */
+    }
+    .icons{
+        margin-left: 27%;
+    }
+}
